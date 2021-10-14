@@ -26,10 +26,10 @@ li {
 header {
     height: 60px;
     width: 100%;
-    background-color: rgba(0, 0, 255, 0.4);
+    background-color: rgb(0, 193, 203);
     position: fixed;
     top: 0;
-    z-index: 10;
+    z-index: 999;
 }
 
 .header-logo {
@@ -45,4 +45,24 @@ header {
 
 .header-list a {
     color: white;
+}
+
+/* STYLE TOP-WRAPPER */
+.top-wrapper {
+    height: 500px;
+    background-size: cover;
+    background-image: url(img/bg.png);
+    text-align: left;
+    color:rgba(255, 255, 255, .7);
+    padding-left: 70px;
+}
+
+.top-wrapper h1 {
+    font-size: 66px;
+    padding-top: 170px;
+}
+
+.top-wrapper h4 {
+    font-size: 28px;
+    margin-top: -25px;
 }
