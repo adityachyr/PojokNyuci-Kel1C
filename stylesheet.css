@@ -62,8 +62,24 @@ header {
     padding-left: 70px;
 }
 
+
 .top-wrapper h4 {
     font-size: 28px;
     margin-top: -25px;
     padding-left: 70px;
+}
+
+/*-- STYLESHEET HEADER--*/
+
+.footer {
+    background-color: #26d0c9;
+    color: #fff;
+    height: 90px;
+    width: 100%;   
+    padding-left: 10px;
+    line-height: 50px;    
+    position: absolute;
+    bottom: 40px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
 }
