@@ -4,23 +4,29 @@
         <meta charset="utf-8">
         <title>PojokNyuci</title>
         <link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="responsive.css">
         <!--LINK FONT-->
         <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    </head>
+    	<script src="https://kit.fontawesome.com/3611fd227a.js" crossorigin="anonymous"></script>
+	</head>
     <body>
+	    
         <!--HEADER-->
         <header>
             <div class="container">
                 <div class="header-logo">PojokNyuci</div>
+		<button style="display:none;" class="fas fa-bars"></button>
                 <div class="header-list">
                     <ul>
-                        <li><a href="#">Kontak</a></li>
-                        <li><a href="#">Layanan</a></li>
-                        <li><a href="#">Tentang</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                        <li><a href="#layanan">Layanan</a></li>
+                        <li><a href="#tentang">Tentang</a></li>
+                        <li><a href="#">Home</a></li>
                     </ul>
                 </div>
             </div>    
         </header>
+	<!--Akhir Bagian HEADER-->
 
         <!-- MAIN -->
         <div class="main">
@@ -32,39 +38,78 @@
                 </div>
             </div>
         </div>
-        
-        <!-- Service -->
-        <div class="service">
-		<h1>Layanan</h1>
-		<div class="layanan">
-			<img class="kiloan" src="https://github.com/adityachyr/PojokNyuci/blob/main/img/kiloan.jpg?raw=true">
-		</div>
-		<p class="kg">Laundry Kiloan</p>
-		<div class="layanan">
-			<img class="satuan" src="https://raw.githubusercontent.com/adityachyr/PojokNyuci/main/img/satuan.jpg">
-		</div>
-		<p class="unit">Laundry Satuan</p>
-		<div class="layanan">
-			<img class="carpet" src="https://raw.githubusercontent.com/adityachyr/PojokNyuci/main/img/carpet.jpg">
-		</div>
-		<p class="karpet">Jasa Cuci Karpet</p>
-		<div class="layanan">
-			<img class="delivery" src="https://raw.githubusercontent.com/adityachyr/PojokNyuci/main/img/antarjemput.jpg">
-		</div>
-		<p class="antar">Antar Jemput</p>
-		<div class="layanan">
-			<img class="iron" src="https://raw.githubusercontent.com/adityachyr/PojokNyuci/main/img/setrika.jpg">
-		</div>
-		<p class="Setrika">Setrika</p>
-	</div>
-        
-        <!--FOOTER-->
-        
-        <div class="footer">
-            <div class="contaier">                
-                    <h2>PojokNyuci</h2>
-                    <h6>copyright 2021</h6>
+        <!--Akhir Bagian MAIN-->
+	
+	<!--Tentang Kami-->
+        <div class="top-wrapper">
+            <div class="container">
+                <div class="heading">
+                    <h2 class="section-title">Tentang Kami</h2>
+                    <p>PojokNyuci hadir untuk anda, kami selalu senantiasa membantu anda dalam membersihkan pakaian anda dengan kualitas terjamin, sehingga anda akan merasa puas dengan pelayanan kami.</p>
+                </div>
             </div>
         </div>
+        <!--Akhir Bagian Tentang Kami-->
+	    
+        <!-- Layanan-->
+        <div class="lesson-wrapper">
+            <div class="container">
+                <div class="heading">
+                    <h3>Layanan</h3>
+                </div>
+                <div class="lessons">
+                    <div class="lesson">
+                        <div class="lesson-icon">
+                            <img src="img/kiloan.jpg" width="100%">
+                        </div>
+                        <p class="kg">Laundry Kiloan/Satuan</p>
+                    </div>    
+                    <div class="lesson">
+                        <div class="lesson-icon">
+                            <img src="img/carpet.jpg" width="100%">
+                        </div>
+                        <p class="antar">Cuci Karpet</p>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson-icon">
+                            <img src="img/setrika.jpg" width="100%">
+                        </div>
+                        <p class="setrika">Setrika</p>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson-icon">
+                            <img src="img/antarjemput.jpg" width="100%">
+                        </div>
+                        <p class="antar">Antar Jemput</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <!--Akhir Bagian Layanan-->
+        
+	<!--Kontak-->
+         <div class="message-wrapper">
+            <div class="container">
+                <div class="contact">
+                    <h2>Kontak</h2>
+                    <h3>Apakah Anda Tertarik Dengan Layanan Kami?</h3>
+                    <p>Klik Link Dibawah Ini Untuk Menuju Kontak Kami.</p>
+                </div>
+                <span class="btn message">Pesan</span>
+            </div>
+        </div>
+        </div>
+        <!--Akhir Bagian Kontak-->
+	    
+        <!--Footer-->
+        <footer>
+            <div class="container">
+                <h2>PojokNyuci</h2>
+                <span>Copyright | 2021</span>
+            </div>
+        </footer>
+        <!--Akhir Bagian Footer-->
+	
     </body>
 </html>
