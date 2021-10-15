@@ -25,8 +25,11 @@
         display: none;
     }
 
-    .button {
-        display: block;
+    .menu-item {
+        display: flex;
+        align-item: center;
+        justify-content: flex-end;
+        padding: 20px 0;
     }
 
     .main-wrapper h1 {
