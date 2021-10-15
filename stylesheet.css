@@ -49,6 +49,13 @@ header {
 .header-list a {
     color: white;
 }
+
+li:hover {
+    background: #FFA6D5;
+    transform: scale(1.05);
+    border-radius: 10px;
+    transition: 0.5s;
+}
 /**Akhir style header**/
 
 
@@ -120,12 +127,20 @@ header {
     width: 20%;
     margin-right: 25px;
     margin-left: 25px;
-
 }
 
 .lesson h3 {
     padding-top: 20px;
     font-size: 16px;
+}
+
+.lesson-icon img {
+    border-radius: 30px;
+    transition: transform .5s ease;
+}
+
+.lesson-icon:hover img {
+     transform: scale(1.5);
 }
 /**akhir dari style service**/
 
