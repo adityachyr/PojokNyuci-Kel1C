@@ -16,15 +16,19 @@ li {
 }
 
 /*-- STYLESHEET HEADER--*/
+.clear {
+    clear: left;
+}
 
 .container {
-    width: 1170px;
+    max-width: 1170px;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 }
 
 header {
-    height: 60px;
+    height: 65px;
     width: 100%;
     background-color: rgb(0, 193, 203);
     position: fixed;
@@ -46,143 +50,157 @@ header {
 .header-list a {
     color: white;
 }
+/**Akhir style header**/
 
-/* STYLE TOP-WRAPPER */
-.top-wrapper {
-    height: 500px;
+
+/**menu-icon**/
+.button{
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+/**Akhir menu-icon/**
+
+
+/* STYLE MAIN-WRAPPER */
+.main-wrapper {
+    height: 550px;
     background-size: cover;
     background-image: url(img/bg.png);
     text-align: left;
     color:rgba(255, 255, 255, .7);
 }
 
-.top-wrapper h1 {
+.main-wrapper h1 {
     font-size: 66px;
     padding-top: 170px;
     padding-left: 70px;
 }
-
 
 .top-wrapper h4 {
     font-size: 28px;
     margin-top: -25px;
     padding-left: 70px;
 }
+/**akhir main-wrapper**/
+
+
+/**Tentang Kami**/
+.top-wrapper {
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 193, 203);
+}
+
+.heading {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.section-title {
+    padding-bottom: 20px;
+    font-size: 36px;
+}
+/**akhir dari style tentang kami**/
+
 
 /* style service */
-.service {
-    position: absolute;
-    width: 100vw;
-    height: 500px;
-    left: 0px;
-    top: 60px;
-    background-color: #fff;
+.lesson-wrapper {
+    height: 400px;
+    margin-bottom: 80px;
+    background-color: white;
+    text-align: center;
+    color: rgb(0, 193, 203);
 }
 
-.service h1 {
-    position: absolute;
-    width: 197px;
-    height: 90px;
-    left: 535px;
+.heading h3 {
+    font-size: 36px;
 }
 
-.layanan img {
-    position: absolute;
-    width: 223px;
-    height: 150px;
-    border-radius: 30px;
+.lesson {
+    float: left;
+    width: 20%;
+    margin-right: 25px;
+    margin-left: 25px;
+
 }
 
-.kiloan {
-    top: 150px;
-    left: 109px;
+.lesson h3 {
+    padding-top: 20px;
+    font-size: 16px;
+}
+/**akhir dari style service**/
+
+
+/**Kontak**/
+.message-wrapper {
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 40px;
 }
 
-.satuan {
-    top: 150px;
-    left: 522px;
-}
-
-.carpet {
-    top: 150px;
-    left: 934px;
-}
-
-.delivery {
-    top: 380px;
-    left: 320px;
-}
-
-.iron {
-    top: 380px;
-    left: 730px;
-}
-
-.layanan {
-    width: 100%; 
-    max-width: 500px; 
-    height: 300px; 
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-
-.layanan img {
-    opacity: 0.5;
-    transition: transform .5s ease;
-}
-
-.layanan:hover img {
-     transform: scale(1.5);
-}
-
-.service p {
-    position: absolute;
-    width: 178px;
-    height: 45px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 187.2%;
-    color: #112031;
-}
-
-.kg {
-    left: 140px;
-    top: 180px;
-}
-
-.unit {
-    left: 562px;
-    top: 180px;
-}
-
-.karpet {
-    left: 967px;
-    top: 180px;
-}
-
-.antar {
-    left: 370px;
-    top: 410px;
-}
-
-.Setrika {
-    left: 810px;
-    top: 410px;
-}
-
-/*-- STYLESHEET FOOTER--*/
-
-.footer {
-    background-color: #26d0c9;
-    color: #fff;
-    height: 90px;
-    width: 100%;   
-    padding-left: 10px;
-    line-height: 50px;    
-    position: absolute;
-    bottom: 40px;
-    border-bottom: 1px solid #eee;
+.contact {
+    color: rgb(0, 193, 203);
     text-align: center;
 }
+
+.contact h2 {
+    font-size: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.contact h3 {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.contact p {
+    font-weight: normal;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.message {
+    padding: 10px 10px;
+    background-color:  rgb(0, 193, 203);
+    cursor: pointer;
+    box-shadow: 0 7px rgb(0, 193, 203);
+    text-align: center;
+}
+
+.message:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+/**akhir dari kontak**/
+
+
+/**Footer**/
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 193, 203);
+    padding-top: 10px;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+footer span {
+    font-size: 9px;
+}
+/**akhir dari footer**/
